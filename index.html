@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Nika's CV">
+    <meta name="author" content="Devcrud">
+    <title>Nika's Resume</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="https://www.linkedin.com/in/nika-cherkezia-237b5414a" target="_blank">Nika's Linkedin</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Nika Cherkezia</span>
+            </h1>
+            <p class="header-subtitle">JUNIOR FRONTEND DEVELOPER</p>            
+
+            <button class="btn btn-primary" id="visit-my-works-btn" onclick="smoothScroll(document.getElementById('portfolio'))">Visit My Works</button>
+        </div>              
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/Nika.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>                
+                <div class="about-caption">
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        I am a junior frontend developer and have been working on different projects. I have prepared more than 20 mini projects. I can create and modify web pages using HTML, CSS and Javascript. I can work with API and SQL as well. Created couple of chrome extensions and around ten mini games using JS.
+                        <br>I am still developing myself in programming. I am improving my JS skills, learning new fancy features for web pages and planning to learn other programming languages and platforms like Angular, React, Java, etc.
+                    </p>
+                    <button class="btn-rounded btn btn-outline-primary mt-4" onclick="window.open('https://drive.google.com/file/d/1p-FR4IQhuU2L3G5X_AYS7XON_kqMB_bU/view')">Download CV</button>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <h6 class="section-title mb-6">Services</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg" alt="Icon imige of pencil and organizer" class="icon">
+                            <h6 class="title">Web Designing</h6>
+                            <p class="subtitle">Creating web pages with different styles and functions depending on the needs of the customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg" alt="Icon imige of computer, tablet and phone" class="icon">
+                            <h6 class="title">Responsive</h6>
+                            <p class="subtitle">Responsive web-pages for different screen sizes, like laptops, computers, tablets and phones</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/toolbox.svg" alt="Icon imige of toolbox" class="icon">
+                            <h6 class="title">Testing and Repairing</h6>
+                            <p class="subtitle">Testing already released and/or newly created web sites. Detecting and fixing  problems in codes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg" alt="Icon imige of some diagarams" class="icon">
+                            <h6 class="title">Making web pages more alive</h6>
+                            <p class="subtitle">Making web-pages more alive using API and different online databases </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="websamples.html" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded" alt="img of a lamp and wooden shelves">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>                         
+                        </span>                         
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="applications.html" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="image of organizer and a wooden frame for a sehlf">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Applications</h5>
+                                <p class="font-weight-normal">Category: Applications</p>
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="games.html" class="portfolio-card">
+                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img" alt="image of papers drawen some diagrams and other things">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Mini Games</h5>
+                                <p class="font-weight-normal">Category: Mini Games Samples</p>
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+
+    
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container contact-container">
+            <div class="contact-header">
+                <h1 class="contact-me">Contact Info</h1>
+            </div>
+
+            <div class="contact-info-and-map">
+                <div class="contact-info">
+                    <p>🌐 <b>Address: </b><span>Tbilisi, Georgia</span></p>
+                    <p>📱 <b>Phone: </b><span>+995 595 375 325</span></p>
+                    <p>📧 <b>E-mail: </b><span> <a href="mailto:cherkezia.nika@gmail.com">cherkezia.nika@gmail.com</a></span></p>
+                    <p><a class="linkedin-link" href="https://linkedin.com/in/nika-cherkezia-237b5414a" target="_blank"><svg class="linkedin-logo" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="m116 3h-104a8.91 8.91 0 0 0 -9 8.8v104.42a8.91 8.91 0 0 0 9 8.78h104a8.93 8.93 0 0 0 9-8.81v-104.42a8.93 8.93 0 0 0 -9-8.77z" fill="#0076b2"/><g fill="#fff"><path d="m21.06 48.73h18.11v58.27h-18.11zm9.06-29a10.5 10.5 0 1 1 -10.5 10.49 10.5 10.5 0 0 1 10.5-10.49"/><path d="m50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41 18.34-.04 21.74 12.03 21.74 27.68v32h-18.11v-28.35c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15v28.79h-18.08z"/></g></svg><b>Linkedin: </b><span>My LinkedIn profile</span></a></p>
+                </div> 
+                
+                <div class="google-map">
+                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1151&amp;height=289&amp;hl=en&amp;q=Tbilisi&amp;t=&amp;z=8&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div><style>.mapouter{position:relative;text-align:right;width:100%;height:289px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:289px;}.gmap_iframe {height:250px!important;}</style></div>
+                </div>
+            </div>
+        </div>
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://www.facebook.com/nika.cherkezia" class="link" target="_blank"><i class="ti-facebook"></i></a>
+                <a href="mailto:cherkezia.nika@gmail.com" class="link"><i class="ti-google"></i></a>
+                <a href="https://www.linkedin.com/in/nika-cherkezia-237b5414a" class="link"><i class="ti-linkedin"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+</html>
